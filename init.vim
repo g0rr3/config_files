@@ -4,12 +4,16 @@ syntax on
 set hidden
 set tabstop=4
 set shiftwidth=4
+set et
 set mouse=a
+set nocompatible
+filetype plugin on
 
 call plug#begin(stdpath('data') . '/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'vimwiki/vimwiki'
 call plug#end()
 
 let g:airline_theme='minimalist'
