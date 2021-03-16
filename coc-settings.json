@@ -17,5 +17,6 @@
         }
       }
     }
-  }
+  },
+  "java.format.settings.url": "/home/g0r3/.config/coc/extensions/node_modules/redhat.java"
 }

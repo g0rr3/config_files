@@ -1,0 +1,7 @@
+alias ll="ls -l"
+alias mci="maven clean install"
+for script in rc.d/*.sh ; do
+        if [ -r $script ] ; then
+                . $script
+        fi
+done
