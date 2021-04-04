@@ -8,3 +8,4 @@ for script in /etc/profile.d/*.sh ; do
                 . $script
         fi
 done
+PATH="$PATH:$HOME/bin"
