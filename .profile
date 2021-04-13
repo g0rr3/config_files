@@ -8,4 +8,6 @@ for script in /etc/profile.d/*.sh ; do
                 . $script
         fi
 done
-PATH="$PATH:$HOME/bin"
+PLAN9=/home/g0r3/clones/plan9port export PLAN9
+PATH="$PATH:$HOME/bin:$PLAN9/bin"
+

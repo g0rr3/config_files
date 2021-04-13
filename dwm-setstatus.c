@@ -6,14 +6,10 @@
 
 int main()
 {
-	
-	Display* dpy = NULL;
+	Display* dpy = XOpenDisplay(getenv("DISPLAY"));
 	Window win = 0;
 	char* input = malloc(30 * sizeof(char));
-		
 	time_t rawtime;
-
-	dpy = XOpenDisplay(getenv("DISPLAY"));
 	win = DefaultRootWindow(dpy);
 	for(;;){
 		time(&rawtime);
@@ -22,6 +18,5 @@ int main()
 		XFlush(dpy);
 		sleep(1);	
 	}
-
 	return 0;
 }
