@@ -7,10 +7,9 @@
 int main()
 {
 	Display* dpy = XOpenDisplay(getenv("DISPLAY"));
-	Window win = 0;
+	Window win = DefaultRootWindow(dpy);
 	char* input = malloc(30 * sizeof(char));
 	time_t rawtime;
-	win = DefaultRootWindow(dpy);
 	for(;;){
 		time(&rawtime);
 		sprintf(input, "%s", ctime(&rawtime));
