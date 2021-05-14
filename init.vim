@@ -11,13 +11,10 @@ filetype plugin on
 
 call plug#begin(stdpath('data') . '/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'vimwiki/vimwiki'
 call plug#end()
 
-let g:airline_theme='minimalist'
-colo desert
+set termguicolors
 
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)

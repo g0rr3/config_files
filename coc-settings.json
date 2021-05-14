@@ -1,8 +1,8 @@
 {
     "texlab.path": "/home/g0r3/clones/texlab/target/release/texlab",
   "java.jdt.ls.vmargs": "-javaagent:/home/g0r3/.m2/repository/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar -Xbootclasspath/a:/home/g0r3/.m2/repository/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar",
-  "java.jdt.ls.home": "/home/g0r3/Downloads/jdt/",
   "rust-analyzer.server.path": "~/clones/rust-analyzer/target/release/rust-analyzer",
+  "java.jdt.ls.home": "/home/g0r3/Downloads/jdt/",
   "java.home": "/usr/lib/jvm/java-11-openjdk",
   "languageserver": {
     "ccls": {

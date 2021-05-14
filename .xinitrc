@@ -10,4 +10,4 @@ xrandr --output eDP1 --mode 1366x768 --pos 0x156 --rotate normal --output DP1 --
 setxkbmap de
 dwm-setstatus &
 ~/.fehbg &
-exec rio
+exec dwm
